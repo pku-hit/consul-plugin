@@ -10,8 +10,8 @@ import (
 )
 
 var Registry = struct {
-	Type string
-	Host string
+	Type string `yaml:"type"`
+	Host string `yaml:"host"`
 }{}
 
 var Reg registry.Registry
