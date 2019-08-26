@@ -1,6 +1,7 @@
 package consul_plugin
 
 import (
+	"github.com/jinzhu/configor"
 	"github.com/micro/go-micro/registry"
 	"github.com/pku-hit/consul"
 )
