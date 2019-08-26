@@ -2,7 +2,6 @@ package consul_plugin
 
 import (
 	"fmt"
-	"github.com/jinzhu/configor"
 	"github.com/micro/go-micro/registry"
 	"github.com/pku-hit/consul"
 	"gopkg.in/yaml.v2"
