@@ -3,6 +3,7 @@ module github.com/pku-hit/consul-plugin
 go 1.12
 
 require (
+	github.com/hashicorp/consul v1.6.0 // indirect
 	github.com/jinzhu/configor v1.1.1
 	github.com/micro/go-micro v1.9.1
 	github.com/pku-hit/consul v1.2.0
